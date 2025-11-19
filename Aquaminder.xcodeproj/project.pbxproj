@@ -6,49 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		1CCF7BAC2EBE13800024A624 /* DrinkWaterPlus Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1CCF7BAB2EBE13800024A624 /* DrinkWaterPlus Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		1CCF7BAD2EBE13800024A624 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1CCF7B9F2EBE13800024A624 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1CCF7BAA2EBE13800024A624;
-			remoteInfo = "DrinkWaterPlus Watch App";
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		1CCF7BBB2EBE13820024A624 /* Embed Watch Content */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
-			dstSubfolderSpec = 16;
-			files = (
-				1CCF7BAC2EBE13800024A624 /* DrinkWaterPlus Watch App.app in Embed Watch Content */,
-			);
-			name = "Embed Watch Content";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		1CCF7BA52EBE13800024A624 /* DrinkWaterPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrinkWaterPlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1CCF7BAB2EBE13800024A624 /* DrinkWaterPlus Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DrinkWaterPlus Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CC182BA2ECDE28900F03D26 /* Aquaminder Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aquaminder Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		1CCF7BAF2EBE13800024A624 /* DrinkWaterPlus Watch App */ = {
+		1CC182BC2ECDE28900F03D26 /* Aquaminder Watch App */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "DrinkWaterPlus Watch App";
+			path = "Aquaminder Watch App";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1CCF7BA82EBE13800024A624 /* Frameworks */ = {
+		1CC182B72ECDE28900F03D26 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -58,19 +29,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1CCF7B9E2EBE13800024A624 = {
+		1CC182B12ECDE28900F03D26 = {
 			isa = PBXGroup;
 			children = (
-				1CCF7BAF2EBE13800024A624 /* DrinkWaterPlus Watch App */,
-				1CCF7BA62EBE13800024A624 /* Products */,
+				1CC182BC2ECDE28900F03D26 /* Aquaminder Watch App */,
+				1CC182BB2ECDE28900F03D26 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		1CCF7BA62EBE13800024A624 /* Products */ = {
+		1CC182BB2ECDE28900F03D26 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1CCF7BA52EBE13800024A624 /* DrinkWaterPlus.app */,
-				1CCF7BAB2EBE13800024A624 /* DrinkWaterPlus Watch App.app */,
+				1CC182BA2ECDE28900F03D26 /* Aquaminder Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,94 +48,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1CCF7BA42EBE13800024A624 /* DrinkWaterPlus */ = {
+		1CC182B92ECDE28900F03D26 /* Aquaminder Watch App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1CCF7BBC2EBE13820024A624 /* Build configuration list for PBXNativeTarget "DrinkWaterPlus" */;
+			buildConfigurationList = 1CC182C52ECDE28A00F03D26 /* Build configuration list for PBXNativeTarget "Aquaminder Watch App" */;
 			buildPhases = (
-				1CCF7BA32EBE13800024A624 /* Resources */,
-				1CCF7BBB2EBE13820024A624 /* Embed Watch Content */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1CCF7BAE2EBE13800024A624 /* PBXTargetDependency */,
-			);
-			name = DrinkWaterPlus;
-			packageProductDependencies = (
-			);
-			productName = DrinkWaterPlus;
-			productReference = 1CCF7BA52EBE13800024A624 /* DrinkWaterPlus.app */;
-			productType = "com.apple.product-type.application.watchapp2-container";
-		};
-		1CCF7BAA2EBE13800024A624 /* DrinkWaterPlus Watch App */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1CCF7BB82EBE13820024A624 /* Build configuration list for PBXNativeTarget "DrinkWaterPlus Watch App" */;
-			buildPhases = (
-				1CCF7BA72EBE13800024A624 /* Sources */,
-				1CCF7BA82EBE13800024A624 /* Frameworks */,
-				1CCF7BA92EBE13800024A624 /* Resources */,
+				1CC182B62ECDE28900F03D26 /* Sources */,
+				1CC182B72ECDE28900F03D26 /* Frameworks */,
+				1CC182B82ECDE28900F03D26 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				1CCF7BAF2EBE13800024A624 /* DrinkWaterPlus Watch App */,
+				1CC182BC2ECDE28900F03D26 /* Aquaminder Watch App */,
 			);
-			name = "DrinkWaterPlus Watch App";
+			name = "Aquaminder Watch App";
 			packageProductDependencies = (
 			);
-			productName = "DrinkWaterPlus Watch App";
-			productReference = 1CCF7BAB2EBE13800024A624 /* DrinkWaterPlus Watch App.app */;
+			productName = "Aquaminder Watch App";
+			productReference = 1CC182BA2ECDE28900F03D26 /* Aquaminder Watch App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1CCF7B9F2EBE13800024A624 /* Project object */ = {
+		1CC182B22ECDE28900F03D26 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2610;
 				LastUpgradeCheck = 2610;
 				TargetAttributes = {
-					1CCF7BA42EBE13800024A624 = {
-						CreatedOnToolsVersion = 26.1;
-					};
-					1CCF7BAA2EBE13800024A624 = {
-						CreatedOnToolsVersion = 26.1;
+					1CC182B92ECDE28900F03D26 = {
+						CreatedOnToolsVersion = 26.1.1;
 					};
 				};
 			};
-			buildConfigurationList = 1CCF7BA22EBE13800024A624 /* Build configuration list for PBXProject "DrinkWaterPlus" */;
+			buildConfigurationList = 1CC182B52ECDE28900F03D26 /* Build configuration list for PBXProject "Aquaminder" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 1CCF7B9E2EBE13800024A624;
+			mainGroup = 1CC182B12ECDE28900F03D26;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 1CCF7BA62EBE13800024A624 /* Products */;
+			productRefGroup = 1CC182BB2ECDE28900F03D26 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1CCF7BA42EBE13800024A624 /* DrinkWaterPlus */,
-				1CCF7BAA2EBE13800024A624 /* DrinkWaterPlus Watch App */,
+				1CC182B92ECDE28900F03D26 /* Aquaminder Watch App */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1CCF7BA32EBE13800024A624 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1CCF7BA92EBE13800024A624 /* Resources */ = {
+		1CC182B82ECDE28900F03D26 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -175,7 +115,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1CCF7BA72EBE13800024A624 /* Sources */ = {
+		1CC182B62ECDE28900F03D26 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -184,16 +124,8 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		1CCF7BAE2EBE13800024A624 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1CCF7BAA2EBE13800024A624 /* DrinkWaterPlus Watch App */;
-			targetProxy = 1CCF7BAD2EBE13800024A624 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		1CCF7BB62EBE13820024A624 /* Debug */ = {
+		1CC182C32ECDE28A00F03D26 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -255,7 +187,7 @@
 			};
 			name = Debug;
 		};
-		1CCF7BB72EBE13820024A624 /* Release */ = {
+		1CC182C42ECDE28A00F03D26 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -309,7 +241,7 @@
 			};
 			name = Release;
 		};
-		1CCF7BB92EBE13820024A624 /* Debug */ = {
+		1CC182C62ECDE28A00F03D26 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -319,15 +251,15 @@
 				DEVELOPMENT_TEAM = CTBN56LQ2D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = DrinkWaterPlus;
+				INFOPLIST_KEY_CFBundleDisplayName = Aquaminder;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_WKWatchOnly = YES;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.huler.DrinkWaterPlus.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = .watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -342,7 +274,7 @@
 			};
 			name = Debug;
 		};
-		1CCF7BBA2EBE13820024A624 /* Release */ = {
+		1CC182C72ECDE28A00F03D26 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -352,15 +284,15 @@
 				DEVELOPMENT_TEAM = CTBN56LQ2D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = DrinkWaterPlus;
+				INFOPLIST_KEY_CFBundleDisplayName = Aquaminder;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_WKWatchOnly = YES;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.huler.DrinkWaterPlus.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = .watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -373,75 +305,31 @@
 				TARGETED_DEVICE_FAMILY = 4;
 				VALIDATE_PRODUCT = YES;
 				WATCHOS_DEPLOYMENT_TARGET = 26.1;
-			};
-			name = Release;
-		};
-		1CCF7BBD2EBE13820024A624 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = CTBN56LQ2D;
-				INFOPLIST_KEY_CFBundleDisplayName = DrinkWaterPlus;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.huler.DrinkWaterPlus;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		1CCF7BBE2EBE13820024A624 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = CTBN56LQ2D;
-				INFOPLIST_KEY_CFBundleDisplayName = DrinkWaterPlus;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.huler.DrinkWaterPlus;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1CCF7BA22EBE13800024A624 /* Build configuration list for PBXProject "DrinkWaterPlus" */ = {
+		1CC182B52ECDE28900F03D26 /* Build configuration list for PBXProject "Aquaminder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1CCF7BB62EBE13820024A624 /* Debug */,
-				1CCF7BB72EBE13820024A624 /* Release */,
+				1CC182C32ECDE28A00F03D26 /* Debug */,
+				1CC182C42ECDE28A00F03D26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1CCF7BB82EBE13820024A624 /* Build configuration list for PBXNativeTarget "DrinkWaterPlus Watch App" */ = {
+		1CC182C52ECDE28A00F03D26 /* Build configuration list for PBXNativeTarget "Aquaminder Watch App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1CCF7BB92EBE13820024A624 /* Debug */,
-				1CCF7BBA2EBE13820024A624 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1CCF7BBC2EBE13820024A624 /* Build configuration list for PBXNativeTarget "DrinkWaterPlus" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1CCF7BBD2EBE13820024A624 /* Debug */,
-				1CCF7BBE2EBE13820024A624 /* Release */,
+				1CC182C62ECDE28A00F03D26 /* Debug */,
+				1CC182C72ECDE28A00F03D26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1CCF7B9F2EBE13800024A624 /* Project object */;
+	rootObject = 1CC182B22ECDE28900F03D26 /* Project object */;
 }
